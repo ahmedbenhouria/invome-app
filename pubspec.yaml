@@ -1,0 +1,65 @@
+name: Invome
+description: "Invome App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg:
+  flutter_native_splash: ^2.4.6
+  flutter_launcher_icons: ^0.14.3
+  standard_searchbar: ^2.1.1
+  flutter_staggered_grid_view: ^0.7.0
+  auto_size_text: ^3.0.0
+  animated_toggle_switch: ^0.8.5
+  animations: ^2.0.7
+  date_field: ^6.0.0
+  pdf: ^3.11.3
+  path_provider: ^2.0.0
+  permission_handler: ^11.0.1
+  open_file: ^3.1.0
+  flutter_pdfview: ^1.4.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/app-icon.png"
+  adaptive_icon_background: "#DCE9EB"
+  adaptive_icon_foreground: "assets/images/app-icon.png"
+  min_sdk_android: 24 # android min sdk min:16, default 21
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/vectors/
+
+  fonts:
+    - family: AcuminPro
+      fonts:
+        - asset: assets/fonts/Acumin-Pro-Bold.otf
+          weight: 700
+        - asset: assets/fonts/Acumin-Pro-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/Acumin-Pro-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Acumin-Pro-Light.otf
+          weight: 400

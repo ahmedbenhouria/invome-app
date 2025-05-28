@@ -1,0 +1,12 @@
+flutter_native_splash:
+  fullscreen: true
+  android: true
+  ios: true
+  web: false
+
+  color: "#DCE9EB"
+  image: "assets/images/logo.png"
+
+  android_12:
+    color: "#DCE9EB"
+    image: "assets/images/logo.png"
