@@ -1,16 +1,3 @@
-# invome
-
-Invome App
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 🌐 Overview
+Invome is a full-featured Flutter application designed to simplify invoice management and generation. Whether you're a freelancer billing for a graphic design project, a small business issuing invoices for product sales, or a consultant tracking client payments.
+Create professional invoices, manage client details, add line items with discounts and taxes, and export polished PDF invoices.
